@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	    <link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <title>GALLERY</title>
+
+    </head>
+	
+    <body>
+	<div class="wrapper">
+        <input type="checkbox" id="btn" hidden>
+        <label for="btn" class="menu-btn">
+        <i class="fas fa-bars"></i>
+        <i class="fas fa-times"></i>
+        </label>
+        <nav id="sidebar">
+            <div class="title">
+                PHOTO GALLERY
+            </div>
+            <ul class="list-items">
+
+               <li><a href=""><i class="fas fa-home"></i>Home</a></li>
+               <li><a href="https://subhashriportfolio.netlify.app/"><i class="fas fa-user-alt"></i>Profile</a></li>
+			    <li><a href="https://wa.me/919940087557/" ><i class="fab fa-whatsapp fa-lg"></i>Contact us</a></li>
+               <div class="icons">
+			       <a href="https://instagram.com/subha3492" target="_blank"><i class="fab fa-instagram"></i></a> <a href="https://t.me/Subha_23" target="_blank"><i class="fab fa-telegram"></i></a>
+                   <a href="https://github.com/subha-2001" target="_blank"><i class="fab fa-github"></i></a>
+                   <a href="https://www.linkedin.com/in/subhashri-r-2659131b3" target="_blank"><i class="fab fa-linkedin"></i></a>
+				</div>
+            </ul>
+        </nav>
+    </div>
+     
+
+
+<table width="100%" height="80%" border="0" cellspacing="5" cellpadding="5">
+    <tr>
+	    <td align="center">
+		    <font face="Verdana,Geneva,ssans-serif" color="white"  size="40"><br>UNSPLASH GALLERY</font><br />
+			<font face="Verdana,Geneva,ssans-serif" color="white"  size="30">Search your photos! here
+			</font>
+		</td>
+	</tr>
+</table>
+<table width="100%" height="100%" border="0" cellspacing="5" cellpadding="5">
+    <tr>
+	    <td align="center">
+			<input type="text" width="100%" height="60%" id="search" placeholder="Search photos" autocomplete="off">
+            <button onclick="SearchPhotos()" class="search-form">Search</button>
+            <div id="result">
+			</div>
+			
+			
+		
+       
+		</td>
+	</tr>
+</table>		
+
+
+
+	    
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="script.js"></script>
+	
+
+</html>
